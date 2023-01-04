@@ -36,20 +36,19 @@ export default function Home({ articles }) {
             className="py-4 text-4xl font-bold tracking-wide  text-zinc-800 
             dark:text-zinc-100 sm:text-5xl"
           >
-            Rittik Basu.
+            Abhay Tiwari.
           </h1>
           <h1
             className="animate-gradient bg-gradient-to-r from-purple-500 via-indigo-500 to-pink-500 bg-clip-text text-[1.6rem]  font-bold 
             tracking-wide text-transparent dark:from-purple-400
             dark:via-indigo-400 dark:to-pink-400 sm:text-5xl"
           >
-            I build things for the web.
+            Associate Software Developer at Mphasis.
           </h1>
           <p className="mt-4 mb-6 pl-1 text-base text-zinc-600 dark:text-zinc-400 md:my-6">
             I&apos;m a full-stack engineer specializing in building & designing
             scalable applications with great user experience. My current tech
-            stack includes Next.js, Typescript & Tailwind and I occasionally
-            dabble in machine learning & blockchain technology.
+            stack includes Java, Spring, SQL, Angular.
           </p>
 
           <Button
