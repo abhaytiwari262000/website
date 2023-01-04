@@ -39,19 +39,15 @@ export function Footer() {
           <Container.Inner>
             <div className="flex flex-col items-center justify-between gap-8 sm:flex-row">
               <div className="hidden gap-6 text-sm font-medium text-zinc-800 dark:text-zinc-200 md:flex">
-                <NavLink href="https://twitter.com/_rittik">Twitter</NavLink>
-                <NavLink href="https://github.com/rittikbasu">GitHub</NavLink>
-                <NavLink href="https://www.linkedin.com/in/rittikbasu/">
+                <NavLink href="https://github.com/abhaytiwari262000">
+                  GitHub
+                </NavLink>
+                <NavLink href="https://www.linkedin.com/in/abhay-tiwari-08643019b/">
                   LinkedIn
                 </NavLink>
-                <NavLink href="mailto:contact@rittikbasu.tech">Mail</NavLink>
+                <NavLink href="mailto:abhay.tiwari@mphasis.com">Mail</NavLink>
               </div>
               <div className="flex gap-x-12 md:hidden">
-                <SocialLinkMobile
-                  href="https://twitter.com"
-                  aria-label="Follow on Twitter"
-                  icon={BsTwitter}
-                />
                 <SocialLinkMobile
                   href="https://github.com"
                   aria-label="Follow on GitHub"
@@ -64,13 +60,12 @@ export function Footer() {
                 />
                 <SocialLinkMobile
                   className="h-6 w-6"
-                  href="mailto:contact@rittikbasu.tech"
+                  href="mailto:abhay.tiwari@mphasis.com"
                   icon={MdEmail}
                 />
               </div>
               <p className="text-sm text-zinc-400 dark:text-zinc-500">
-                &copy; {new Date().getFullYear()} Rittik Basu. All rights
-                reserved.
+                &copy; {new Date().getFullYear()} Abhay Tiwari.
               </p>
             </div>
           </Container.Inner>

@@ -73,7 +73,7 @@ export default function About() {
               url: `${baseUrl}api/og?title=About`,
               width: 1200,
               height: 600,
-              alt: `Blog | Rittik Basu`,
+              alt: `Abhay Tiwari`,
             },
           ],
         }}
@@ -85,7 +85,7 @@ export default function About() {
               <div className="max-w-xs px-2.5">
                 <Image
                   src={portraitImage}
-                  alt="Rittik Basu"
+                  alt="Abhay Tiwari"
                   sizes="(min-width: 1024px) 32rem, 20rem"
                   className="saturate-150 transition duration-500 hover:scale-110"
                   priority
@@ -101,7 +101,7 @@ export default function About() {
             text-transparent dark:from-purple-400 dark:via-indigo-400
             dark:to-pink-400"
               >
-                Rittik Basu.
+                Abhay Tiwari.
               </span>{' '}
               <br />I live in India, where I break things & learn fast.
             </h1>
@@ -122,12 +122,12 @@ export default function About() {
                 best way to solve a problem.
               </p>
               <p>
-                I started learning Python because I wanted to automate some
+                I started learning Java because I wanted to automate some
                 monotonous tasks of my daily life but I quickly fell in love
                 with programming and started learning other languages too. I
-                have been working with web technologies for the past 3 years now
-                and I have been able to learn new tools & frameworks on my own
-                and apply them to solve real world problems.
+                have been working with different technologies for the past 3
+                years now and I have been able to learn new tools & frameworks
+                on my own and apply them to solve real world problems.
               </p>
               <div>
                 <span className="font-bold tracking-widest underline">
@@ -153,22 +153,7 @@ export default function About() {
                       React
                     </Skills>
                   </div>
-                  <div>
-                    <Skills
-                      icon={SiNextdotjs}
-                      className="group-hover:fill-black dark:group-hover:fill-white"
-                    >
-                      Next.js
-                    </Skills>
-                  </div>
-                  <div>
-                    <Skills
-                      icon={SiTailwindcss}
-                      className="group-hover:fill-blue-400"
-                    >
-                      Tailwind
-                    </Skills>
-                  </div>
+
                   <div>
                     <Skills
                       icon={SiBootstrap}
@@ -201,14 +186,6 @@ export default function About() {
                       Jupyter
                     </Skills>
                   </div>
-                  <div>
-                    <Skills
-                      icon={SiFlask}
-                      className="group-hover:fill-black dark:group-hover:fill-white"
-                    >
-                      Flask
-                    </Skills>
-                  </div>
                 </ul>
               </div>
 
@@ -227,21 +204,14 @@ export default function About() {
             <div className="flex justify-center">
               <ul role="list" className="space-y-6">
                 <SocialLink
-                  href="https://twitter.com/_rittik"
-                  icon={BsTwitter}
-                  className=""
-                >
-                  Connect on Twitter
-                </SocialLink>
-                <SocialLink
-                  href="https://github.com/rittikbasu"
+                  href="https://github.com/abhaytiwari262000"
                   icon={BsGithub}
                   className=""
                 >
                   Connect on GitHub
                 </SocialLink>
                 <SocialLink
-                  href="https://www.linkedin.com/in/rittikbasu/"
+                  href="https://www.linkedin.com/in/abhay-tiwari-08643019b/"
                   icon={FaLinkedinIn}
                   className=""
                 >
@@ -251,11 +221,11 @@ export default function About() {
                   <div className="w-24 border-t border-zinc-300 dark:border-zinc-600/40"></div>
                 </div>
                 <Link
-                  href="mailto:contact@rittikbasu.tech"
+                  href="mailto:abhay.tiwari@mphasis.com"
                   className="group flex items-center text-sm font-medium tracking-wide text-zinc-800 transition duration-300 after:justify-center hover:scale-125 hover:text-indigo-500 dark:text-zinc-200 dark:hover:text-indigo-500"
                 >
                   <MdEmail className="mr-3 h-5 w-5 flex-none fill-zinc-500 transition group-hover:fill-indigo-500" />
-                  contact@rittikbasu.tech
+                  abhay.tiwari@mphasis.com
                 </Link>
                 <Button
                   href="/projects"

@@ -1,30 +1,25 @@
 export const baseUrl = process.env.NEXT_PUBLIC_WEBSITE_URL
 
 export default {
-  defaultTitle: 'Rittik Basu | Front End Developer',
-  titleTemplate: '%s | Rittik Basu',
+  defaultTitle: 'Abhay Tiwari | Full Stack Developer',
+  titleTemplate: '%s | AbhayTiwari',
   description:
-    "A full-stack engineer specializing in building & designing scalable applications with great user experience.",
+    'A full-stack engineer specializing in building & designing scalable applications with great user experience.',
   openGraph: {
-    title: 'Rittik Basu',
+    title: 'Abhay Tiwari',
     description:
-      "A full-stack engineer specializing in building & designing scalable applications with great user experience.",
+      'A full-stack engineer specializing in building & designing scalable applications with great user experience.',
     images: [
       {
         url: `${baseUrl}api/og?title=home`,
         width: 1200,
         height: 600,
-        alt: `Rittik Basu | Full Stack Developer`,
+        alt: `Abhay Tiwari | Full Stack Developer`,
       },
     ],
     type: 'website',
     locale: 'en_US',
     url: baseUrl,
-    site_name: 'Rittik Basu',
-  },
-  twitter: {
-    handle: '@_rittik',
-    site: '@_rittik',
-    cardType: 'summary_large_image',
+    site_name: 'Abhay Tiwari',
   },
 }
